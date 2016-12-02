@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<!-- BEGIN META -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="Custom Theme">
+		<!-- END META -->
+
+		<!-- BEGIN SHORTCUT ICON -->
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<!-- END SHORTCUT ICON -->
+		<title>购物中心后台管理系统</title>
+
+		<!-- BEGIN STYLESHEET -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- BOOTSTRAP CSS -->
+		<link href="css/bootstrap-reset.css" rel="stylesheet">
+		<!-- BOOTSTRAP CSS -->
+		<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+		<!-- FONT AWESOME ICON STYLESHEET -->
+		<link rel="stylesheet" href="assets/data-tables/DT_bootstrap.css">
+		<!-- DATATABLE CSS -->
+		<link href="css/style.css" rel="stylesheet">
+		<!-- THEME BASIC CSS -->
+		<link href="css/style-responsive.css" rel="stylesheet">
+		<!-- THEME BASIC RESPONSIVE  CSS -->
+		<!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+		<!-- END STYLESHEET -->
+	</head>
+
+	<body>
+		<!-- BEGIN SECTION -->
+		<section id="container" class="">
+
+			<!-- BEGIN MAIN CONTENT -->
+			<section id="main-content" style="margin-left: 0px;">
+				<!-- BEGIN WRAPPER  -->
+				<div class="wrapper" style="margin-top: 0px;">
+					<section class="panel">
+						<header class="panel-heading">
+							<span class="label label-primary">货物信息</span>
+							<div class="btn-group pull-right">
+								<a data-toggle="modal" href="#myModaladd" id="editable-sample_new" class="btn btn-success green">
+							  	 添加货物 <i class="fa fa-plus"></i>
+						   		</a>
+							</div>
+						</header>
+						<div class="panel-body">
+							<div class="adv-table editable-table ">
+								<!-- <div class="space15"></div> -->
+								<table class="table table-striped table-hover table-bordered" id="editable-sample">
+									<thead>
+										<tr>
+											<th>名称</th>
+											<th>编号</th>
+											<th>添加时间</th>
+											<th>类型</th>
+											<th>售价</th>
+											<th>状态</th>
+											<th>操作人</th>
+											<th>操作时间</th>
+											<th>操作</th>
+											<!-- <th class="hidden-phone">Notes</th> -->
+										</tr>
+									</thead>
+									<tbody>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+										<tr class="">
+											<td>小毛巾</td>
+											<td>0001</td>
+											<td>2016-0-13</td>
+											<td>日常用品</td>
+											<td>12.00</td>
+											<td>有货</td>
+											<td>小波</td>
+											<td>2016-10-11</td>
+											<td>
+												<a data-toggle="modal" href="#myModaledit" class="edit">
+												  	 <span class="label label-success">修改</span>
+										   		</a>
+												<a class="delete" href="javascript:;">
+													<span class="label label-danger">删除</span>
+												</a>
+											</td>
+											<!-- <td class="center hidden-phone">super user</td> -->
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!-- MODAL -->
+						<div id="myModaladd" class="modal fade">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h4 class="modal-title">添加货物</h4>
+									</div>
+									<div class="modal-body">
+										<div class="form">
+											<form class="cmxform form-horizontal tasi-form" id="commentForm" method="get" action="form_validation.html">
+												<div class="form-group ">
+												   <label for="cname" class="control-label col-sm-2">名称</label>
+												   <div class="col-sm-10">
+													  <input class=" form-control" id="cname" name="name"  type="text" required />
+												   </div>
+												</div>
+												<div class="form-group ">
+												   <label for="cname" class="control-label col-sm-2">编号</label>
+												   <div class="col-sm-10">
+													  <input class=" form-control" id="cname" name="name"  type="text" required />
+												   </div>
+												</div>
+												<div class="form-group ">
+												   <label for="cname" class="control-label col-sm-2">添加时间</label>
+												   <div class="col-sm-10">
+													  <input class=" form-control" id="cname" name="name"  type="text" required />
+												   </div>
+												</div>
+												<div class="form-group ">
+												   <label for="cname" class="control-label col-sm-2">类型</label>
+												   <div class="col-sm-10">
+													  <input class=" form-control" id="cname" name="name"  type="text" required />
+												   </div>
+												</div>
+												<div class="form-group ">
+												   <label for="cname" class="control-label col-sm-2">售价</label>
+												   <div class="col-sm-10">
+													  <input class=" form-control" id="cname" name="name"  type="text" required />
+												   </div>
+												</div>
+												<div class="form-group ">
+												   <label for="cname" class="control-label col-sm-2">状态</label>
+												   <div class="col-sm-10">
+													  <input class=" form-control" id="cname" name="name"  type="text" required />
+												   </div>
+												</div>
+				                                 <!-- <div class="form-group ">
+				                                    <label for="curl" class="control-label col-sm-2">URL (optional)</label>
+				                                    <div class="col-sm-10">
+				                                       <input class="form-control " id="curl" type="url" name="url">
+				                                    </div>
+				                                 </div> -->
+				                              </form>
+			                            </div>
+									</div>
+									<div class="modal-footer">
+										<button data-dismiss="modal" class="btn btn-primary" type="button" form="commentForm">取消</button>
+										<button class="btn btn-success" type="submit" form="commentForm">保存</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="myModaledit" class="modal fade">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h4 class="modal-title">修改员工</h4>
+									</div>
+									<div class="modal-body">
+										<div class="form">
+											<form class="cmxform form-horizontal tasi-form" id="commentFormEdit" method="get" action="form_validation.html">
+												<div class="form-group ">
+												   <label for="cname" class="control-label col-sm-2">名称</label>
+												   <div class="col-sm-10">
+													  <input class=" form-control" id="cname" name="name"  type="text" required />
+												   </div>
+												</div>
+												<div class="form-group ">
+												   <label for="cname" class="control-label col-sm-2">编号</label>
+												   <div class="col-sm-10">
+													  <input class=" form-control" id="cname" name="name"  type="text" required />
+												   </div>
+												</div>
+												<div class="form-group ">
+												   <label for="cname" class="control-label col-sm-2">添加时间</label>
+												   <div class="col-sm-10">
+													  <input class=" form-control" id="cname" name="name"  type="text" required />
+												   </div>
+												</div>
+												<div class="form-group ">
+												   <label for="cname" class="control-label col-sm-2">类型</label>
+												   <div class="col-sm-10">
+													  <input class=" form-control" id="cname" name="name"  type="text" required />
+												   </div>
+												</div>
+												<div class="form-group ">
+												   <label for="cname" class="control-label col-sm-2">售价</label>
+												   <div class="col-sm-10">
+													  <input class=" form-control" id="cname" name="name"  type="text" required />
+												   </div>
+												</div>
+												<div class="form-group ">
+												   <label for="cname" class="control-label col-sm-2">状态</label>
+												   <div class="col-sm-10">
+													  <input class=" form-control" id="cname" name="name"  type="text" required />
+												   </div>
+												</div>
+				                                 <!-- <div class="form-group ">
+				                                    <label for="curl" class="control-label col-sm-2">URL (optional)</label>
+				                                    <div class="col-sm-10">
+				                                       <input class="form-control " id="curl" type="url" name="url">
+				                                    </div>
+				                                 </div> -->
+				                              </form>
+			                            </div>
+									</div>
+									<div class="modal-footer">
+										<button data-dismiss="modal" class="btn btn-primary" type="button" form="commentFormEdit">取消</button>
+										<button class="btn btn-success" type="submit" form="commentFormEdit">保存</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- END MODAL -->
+					</section>
+				</div>
+				<!-- END WRAPPER -->
+			</section>
+			<!-- END MAIN CONTENT -->
+			<!-- BEGIN FOOTER -->
+			<!-- <footer class="site-footer">
+				<div class="text-center">
+					2016 &copy; Tel 15779420412 &nbsp;
+					<a href="http://123.207.145.89/xiaobo" target="_blank">xiaobo</a>.
+					<a href="./employee.html" class="go-top">
+						<i class="fa fa-angle-up"></i>
+					</a>
+				</div>
+			</footer> -->
+			<!-- END  FOOTER -->
+		</section>
+		<!-- END SECTION -->
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<!-- BASIC JS LIABRARY 1.8.3 -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- BOOTSTRAP JS  -->
+		<script src="js/jquery.dcjqaccordion.2.7.js"></script>
+		<!-- ACCORDING JS -->
+		<script src="js/jquery.scrollTo.min.js"></script>
+		<!-- SCROLLTO JS  -->
+		<script src="js/jquery.nicescroll.js">
+		</script>
+		<!-- NICESCROLL JS  -->
+		<script src="assets/data-tables/jquery.dataTables.js"></script>
+		<!-- DATATABLE JS  -->
+		<script src="assets/data-tables/DT_bootstrap.js"></script>
+		<!-- DATATABLE JS  -->
+		<script src="js/respond.min.js"></script>
+		<!-- RESPOND JS  -->
+		<script src="js/common-scripts.js"></script>
+		<!-- BASIC COMMON JS  -->
+		<script src="js/editable-table.js"></script>
+		<!-- EDITABLE TABLE JS  -->
+		<script>
+			<!-- EDITABLE TABLE FUNCTION  -->
+			jQuery(document).ready(function() {
+				EditableTable.init();
+			});
+		</script>
+	</body>
+
+</html>

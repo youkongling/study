@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<!-- BEGIN META -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="Olive Enterprise">
+		<!-- END META -->
+
+		<!-- BEGIN SHORTCUT ICON -->
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<!-- END SHORTCUT ICON -->
+		<title>
+			购物中心后台管理系统
+		</title>
+		<!-- BEGIN STYLESHEET-->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- BOOTSTRAP CSS -->
+		<link href="css/bootstrap-reset.css" rel="stylesheet">
+		<!-- BOOTSTRAP CSS -->
+		<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+		<!-- FONT AWESOME ICON CSS -->
+		<link href="css/style.css" rel="stylesheet">
+		<!-- THEME BASIC CSS -->
+		<link href="css/style-responsive.css" rel="stylesheet">
+		<!-- THEME RESPONSIVE CSS -->
+		<!--dashboard calendar-->
+		<link href="css/clndr.css" rel="stylesheet">
+		<!-- CALENDER CSS -->
+		<!--[if lt IE 9]>
+        <script src="js/html5shiv.js">
+        </script>
+        <script src="js/respond.min.js">
+        </script>
+        <![endif]-->
+		<!-- END STYLESHEET-->
+		<link rel="stylesheet" href="css/add-index.css" media="screen">
+	</head>
+
+	<body>
+		<!-- BEGIN SECTION -->
+		<section id="container">
+			<!-- BEGIN HEADER -->
+			<header class="header white-bg">
+				<!-- SIDEBAR TOGGLE BUTTON -->
+				<div class="sidebar-toggle-box">
+					<div data-placement="right" class="fa fa-bars tooltips"></div>
+				</div>
+				<!-- SIDEBAR TOGGLE BUTTON  END-->
+				<a href="index.html" class="logo">
+					购物中心后台管理系统
+				</a>
+				<!-- START HEADER  NAV -->
+
+				<!-- START USER LOGIN DROPDOWN  -->
+
+				<div class="top-nav ">
+					<ul class="nav pull-right top-menu">
+						<li>
+							<input type="text" class="form-control search" placeholder="Search">
+						</li>
+						<li class="dropdown">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+								<img alt="" src="img/avatar1_small.jpg">
+								<span class="username">小俊</span>
+								<b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu extended logout">
+								<li class="log-arrow-up">
+								</li>
+								<li>
+									<a href="login.html">
+										<i class="fa fa-key"></i> Log Out
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!-- END USER LOGIN DROPDOWN  -->
+			</header>
+			<!-- END HEADER -->
+			<!-- BEGIN SIDEBAR -->
+			<aside>
+				<div id="sidebar" class="nav-collapse">
+					<ul class="sidebar-menu" id="nav-accordion">
+						<li>
+							<a href="./500.html" target="iframeContainer" class="active">
+								<i class="fa fa-laptop"></i>
+								<span>后台首页</span>
+							</a>
+						</li>
+                        <li class="sub-menu">
+							<a href="javascript:;">
+								<i class="fa fa-cogs"></i>
+								<span>系统管理</span>
+								<span class="label label-success span-sidebar">4</span>
+							</a>
+							<ul class="sub">
+                                <li>
+									<a href="./employee.html" target="iframeContainer">员工管理</a>
+								</li>
+                                <li>
+									<a href="./goods.html" target="iframeContainer">货物管理</a>
+								</li>
+								<li class="sub-menu">
+									<a href="javascript:;">
+										<span>后台管理</span>
+									</a>
+									<ul class="sub">
+										<li>
+											<a href="#">货币管理</a>
+										</li>
+										<li>
+											<a href="#">区域维护</a>
+										</li>
+										<li>
+											<a href="#">收款方式</a>
+										</li>
+									</ul>
+								</li>
+								<li class="sub-menu">
+									<a href="javascript:;">
+										<span>系统消息</span>
+									</a>
+									<ul class="sub">
+										<li>
+											<a href="#">收件箱</a>
+										</li>
+										<li>
+											<a href="#">发件箱</a>
+										</li>
+										<li>
+											<a href="#">新建消息</a>
+										</li>
+										<li>
+											<a href="#">删除消息</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+                        <li class="sub-menu">
+							<a href="javascript:;">
+								<i class="fa fa-archive"></i>
+								<span>租务管理</span>
+								<span class="label label-warning span-sidebar">4</span>
+							</a>
+							<ul class="sub">
+                                <li class="sub-menu">
+									<a href="javascript:;">
+										<span>基础设定</span>
+									</a>
+									<ul class="sub">
+										<li>
+											<a href="#">中央管控</a>
+										</li>
+										<li>
+											<a href="#">客流量</a>
+										</li>
+										<li>
+											<a href="#">立体公司</a>
+										</li>
+									</ul>
+								</li>
+                                <li>
+									<a href="#">铺位管理</a>
+								</li>
+                                <li>
+									<a href="#">品牌管理</a>
+								</li>
+                                <li>
+									<a href="#">商户管理</a>
+								</li>
+							</ul>
+						</li>
+                        <li class="sub-menu">
+							<a href="javascript:;">
+								<i class="fa fa-table"></i>
+								<span>报表</span>
+								<span class="label label-info span-sidebar">4</span>
+							</a>
+							<ul class="sub">
+                                <li>
+									<a href="#">总收银核对报表</a>
+								</li>
+                                <li>
+									<a href="#">店铺销售查询报表</a>
+								</li>
+                                <li>
+									<a href="#">财务对账报表</a>
+								</li>
+                                <li>
+									<a href="#">招商报表</a>
+								</li>
+							</ul>
+						</li>
+                        <li class="sub-menu">
+							<a href="javascript:;">
+								<i class="fa fa-search"></i>
+								<span>菜单查询</span>
+							</a>
+						</li>
+					</ul> <!-- sub-menu -->
+				</div>
+			</aside>
+			<!-- END SIDEBAR -->
+			<!-- BEGIN MAIN CONTENT -->
+
+            <section id="main-content">
+                <!-- BEGIN WRAPPER  -->
+                <div class="wrapper" id="wrapperContainer">
+					<iframe id="iframeContainer" name="iframeContainer" frameborder="no" scrolling="auto" src="./500.html"></iframe>
+                </div>
+    			<!-- END WRAPPER -->
+            </section>
+			<!-- END MAIN CONTENT -->
+
+		</section>
+		<!-- END SECTION -->
+		<!-- BEGIN JS -->
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<!-- BASIC JQUERY 1.8.3 LIB. JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- BOOTSTRAP JS -->
+		<script src="js/jquery.dcjqaccordion.2.7.js"></script>
+		<!-- ACCORDIN JS -->
+		<script src="js/jquery.scrollTo.min.js"></script>
+		<!-- SCROLLTO JS -->
+		<script src="js/jquery.nicescroll.js"></script>
+		<!-- NICESCROLL JS -->
+		<script src="js/respond.min.js"></script>
+		<!-- RESPOND JS -->
+		<script src="js/jquery.sparkline.js"></script>
+		<!-- SPARKLINE JS -->
+		<script src="js/common-scripts.js"></script>
+		<!-- BASIC COMMON JS -->
+		<script src="js/count.js"></script>
+		<!-- COUNT JS -->
+		<!--Calendar-->
+		<script src="js/calendar/clndr.js"></script>
+		<!-- CALENDER JS -->
+		<script src="js/calendar/evnt.calendar.init.js"></script>
+		<!-- CALENDER EVENT JS -->
+		<script src="js/calendar/moment-2.2.1.js"></script>
+		<!-- CALENDER MOMENT JS -->
+		<script src="js/underscore.js" charset="utf-8"></script>
+		<script src="assets/jquery-knob/js/jquery.knob.js"></script>
+		<!-- JQUERY KNOB JS -->
+		<script>
+			//knob
+			$(".knob").knob();
+		</script>
+		<!-- END JS -->
+	</body>
+
+</html>
